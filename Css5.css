@@ -1,0 +1,14 @@
+/* #myname p{
+    color:green;
+
+} */
+
+/* div[id="myname"] p{
+    color:blue;
+} */
+
+div p{
+    color:brown;
+}
+
+/* all the three is correct way. */
