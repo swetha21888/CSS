@@ -1,0 +1,412 @@
+body{
+      font-family: "Montserrat", sans-serif;
+      margin: 0;
+      background-color: black;
+      color:white;
+      overflow: hidden;
+      /* overflow-y: auto;   /* allow vertical scroll*/
+            /*overflow-x: hidden; */
+
+    }
+
+.main{
+    display: flex;
+    padding: 0.5rem;
+    /* min-height: 100vh; */
+      height: 100vh;  /* allow growth beyond viewport */
+}
+
+
+.sidebar {
+  background-color: black; /* outer background */
+  width: 340px;
+  border-radius: 1rem;
+  margin-right: 0.5rem;
+  padding: 0.5rem;
+  /* height:auto; */
+  overflow: auto;
+}
+
+
+
+.main-content{
+    background-color: #121212;
+    flex:1;
+    border-radius: 1rem;
+    margin: 0.5rem 1.5rem 1.5rem 0;
+    overflow: auto;
+    padding: 0 1.5rem 0 1.5rem ;
+}
+
+.music-player{
+    background-color: black;
+    bottom:0;
+    position: fixed;
+    width: 100%;
+    height: 72px;
+}
+
+a{
+    text-decoration: none;
+    /* padding-left: 8px; */
+    /* font-size: 1rem; */
+    color:white;
+
+}
+
+.nav-option i{
+    /* margin-left: 5px; */
+    font-size: 1.25rem;
+}
+.nav-option a{
+    font-size:1rem;
+    margin-left: 1rem;
+}
+.nav{
+    background:#121212 ;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    padding:0.5rem 0.75rem;
+    /* font-size: 1.25rem;
+    margin-bottom:0.5rem ; */
+}
+
+
+.nav-option{
+    opacity: 0.7;
+    line-height: 2.5rem;
+    padding:0.5rem 0.75rem;
+}
+
+.nav-option:hover{
+    opacity: 1;
+}
+ 
+
+.library{
+    background-color:#121212;
+    border-radius: 1rem;
+    margin-top: 0.5rem;
+    padding:0.5rem 0.75rem;
+    height: 100%;
+   
+}
+
+.options{
+ justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.lib-option img{
+    height:1.25rem;
+    width:1.25rem;
+}
+
+.lib-option a {
+    text-decoration: none;
+    opacity: 0.75;
+    margin-left: 1rem;
+    color:white;
+}
+
+
+
+.icon{
+    font-size: 1.25rem;
+    display: flex;
+}
+
+.icon i{
+opacity:0.75 ;
+    margin-right:1rem ;
+}
+
+.icon i:hover{
+    opacity:1 ;
+}
+
+.lib-box {
+  background-color: #121212; /* lighter box color */
+  border-radius: 1rem;
+}
+
+.Box {
+  background-color: #232323;
+  height:10rem;
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  margin:0.75rem 0 1.75rem 0;
+}
+
+.Box-p1{
+  color: white; 
+  font-weight: 500;      
+  font-size: 1rem;      
+} 
+
+.Box-p2{
+    font-size: 0.85rem;
+    opacity:0.9 ;
+}
+
+.Badge {
+  background-color: white; /* Spotify green */
+  border: none;
+  padding: 0.25rem 1rem;
+  border-radius: 100px;
+  cursor: pointer;
+  font-weight: bold;
+  height:2rem;
+  width:fit-content;
+  margin-top: 0.5rem;
+}
+
+.dark-badge{
+    background-color: black;
+    color:white;
+}
+
+.Badge:hover {
+  background-color: #1ed760;
+}
+
+.sticky-nav{
+    position: sticky;
+    top:0;
+    display: flex;
+    background-color: #121212;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+    z-index:10 ;
+}
+
+.sticky-icons{
+    margin-left:0.75rem;
+
+}
+
+.sticky-options{
+     display: flex;
+        justify-content:center;
+         align-items: center;
+
+}
+
+.nav-items{
+        margin-right:1rem;
+}
+
+@media(max-width:1000px){
+    .hide{
+        display: none;
+    }
+}
+
+.card{
+    background-color:#232323;
+    width:130px;
+    border-radius: 0.5rem;
+    padding:1rem;
+    margin-left:1.5rem;
+    margin-top: 1rem;
+
+}
+
+.card-container{
+    display:flex;
+    flex-wrap:wrap;
+}
+/* h2{
+    padding-left:1rem;
+} */
+.card-img{
+    width:100%;
+    border-radius:0.5rem;
+}
+
+.card-title{
+    font-weight:600;
+}
+
+.card-info{
+    font-size:0.85rem;
+    opacity:0.8;
+}
+
+.footer{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line{
+    width:90%;
+    height:50%;
+    border-top: 1px solid white;
+    opacity:0.4;
+}
+
+.music-player{
+    display: flex;
+}
+
+.album{
+   display: flex;
+   align-items: center;
+   width: 25%;
+}
+
+.album img{
+width: 3rem;
+height:3rem;
+padding:0.5rem;
+margin-top: 0.2rem;
+
+}
+.paragraph{
+    line-height: 0.40rem;
+    margin-left: 1rem;
+}
+.bold{
+    font-weight: 500;
+    font-size: 0.75rem;
+}
+
+.light{
+    opacity: 0.5;
+    font-size:0.60rem ;
+}
+
+.ino{
+    font-size:1.5rem;
+}
+.inoo{
+    opacity: 0.5;
+}
+.inoo:hover{
+    opacity: 1;
+}
+
+.ino i{
+    margin-left: 1rem;
+}
+
+.player{
+    width:50%;
+}
+     
+.player-icons-img{
+  height:1rem;
+  margin-right: 1.75rem;
+  opacity: 0.7;
+
+}
+
+.player-icons-img:hover{
+  opacity: 1;
+
+}
+
+.player-controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.player-bar{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress-bar{
+    width:70%;
+    background-color: transparent;
+    cursor:pointer;
+    appearance: none;
+
+}
+
+.progress-bar::-webkit-slider-runnable-track{
+    background-color: #ddd;
+    border-radius: 100px;
+    height:0.2rem ;
+    appearance: none;
+}
+
+.progress-bar::-webkit-slider-thumb{
+    appearance: none;
+    height:1rem;
+    width:1rem;
+    background-color: #1bd760;
+    border-radius: 50%;
+    margin-top: -6px;
+}
+
+.controls{
+    width:25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1rem;
+}
+
+.img-cont{
+    margin-left: 1rem;
+    opacity: 0.75;
+}
+
+.img-cont:hover{
+    opacity:1;
+}
+
+.low{
+    opacity: 0.75;
+}
+
+.low:hover{
+          opacity:1;
+}
+
+.Control-range{
+    background-color:transparent;
+    cursor: pointer;
+    appearance: none;
+    width:80px;
+}
+
+
+.Control-range::-webkit-slider-runnable-track{
+    background-color: #ddd;
+    border-radius: 100px;
+    height:0.25rem ;
+    appearance: none;   
+}
+
+.Control-range::-webkit-slider-thumb{
+    appearance: none;
+    height:1rem;
+    width:1rem;
+    background-color: #1bd760;
+    border-radius: 50%;
+    margin-top: -6px;
+}
+
+.con-img {
+  display: flex;
+  align-items: center;
+}
+
+.con-img{
+    margin-right:3rem;
+    padding-left:1rem;
+}
