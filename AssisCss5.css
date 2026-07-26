@@ -1,0 +1,51 @@
+.Ho{
+ width: 100px;
+ height: 100px;
+ font-size: 50px;
+ /* margin-top: 15px; */
+ text-align: center;
+ background-color: grey;
+ border: 2px solid black;
+ border-radius: 10px 10px 10px 10px;
+}
+
+
+#container{
+    height: 400px;
+    width: 400px;
+    border: 1px solid rgb(37, 203, 228);
+    background-color:white;
+    border-radius: 20px 20px 20px 20px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+
+
+#con{
+    height:50px;
+    width:900px;
+    border: 2px solid green;
+    border-radius: 10px;
+    background-color: pink;
+    display: flex;
+    /* justify-content: flex-start;
+    align-content: center;
+     */
+}
+
+
+
+    .Hi{
+        height:50px;
+        width:80px;
+        font-size: 24px;
+        /* line-height: 50px; */
+        margin-left: 5px;
+        margin-top: 10px;
+    }
