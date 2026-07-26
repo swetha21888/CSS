@@ -1,0 +1,26 @@
+#Hello{
+    height:100px;
+    width:100px;
+    background-color: rgb(250,255,0,1);
+    opacity:3;
+    margin:auto;
+    margin-top: 10px ;
+    transition:margin-top 5s ease-in 0.1s;
+}
+
+#Hello:hover{
+    border-radius: 50%;
+     background-color: pink;
+     margin-top: 400px;
+}
+
+#HI{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    box-shadow:2px 2px 10px black;
+}
+
+#HI:hover{
+    box-shadow: 10px 20px 15px rgb(65, 3, 65);
+}
