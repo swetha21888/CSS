@@ -1,0 +1,8 @@
+div{
+    height: 550px;
+    width: 400px;
+    background-color: rgb(252, 177, 190); 
+    margin:0 auto;
+    background-image: url("Vijay.jpg");
+    background-size:auto;
+}
