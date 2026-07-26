@@ -1,0 +1,185 @@
+*{
+    margin: 0px;
+    padding: 0px;
+      font-family: "Poppins", sans-serif;
+
+}
+
+.main_box{
+    background-image: url(Camera.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.btn_one i{
+    font-weight: 700;
+    color:white;
+    position: absolute;
+    font-size: 30px;
+    line-height: 60px;
+    left: 16px;
+    cursor: pointer;
+    transition:all linear 0.3s;
+
+}
+
+.sidebar_menu{
+
+    position: fixed;
+    left: -300px;
+    height:100vh;
+    width: 300px;
+    background-color:rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 0px 3px rgba(255, 255, 255, 0.1);
+        transition: all  linear 0.3s;
+
+}
+
+
+.sidebar_menu .logo{                           
+     /* logo ka box */
+position: absolute;
+width:100%;
+height: 60px;
+box-shadow:0 2px 4px rgba(255, 255, 255, 0.5)  ;
+line-height: 16px ;
+}
+
+.sidebar_menu .logo a{
+position: absolute;
+left: 50px;
+height: 60px;
+top:30px;
+color: white;
+text-decoration: none;
+font-size: larger;
+font-weight: 900;
+
+}
+
+.btn_two {
+    color: grey;
+ font-weight: 500;
+    position: absolute;
+    font-size: 25px;
+    line-height: 16px;
+    top: 26px;
+    left: 270px;
+    /* opacity: 0; */
+
+}
+
+.btn_two i{
+        cursor: pointer;
+            transition: all linear 0.3s;
+
+}
+
+
+
+.menu{
+    position: absolute;
+    top: 80px;
+    width: 100%;
+}
+
+.menu li{
+    margin-top: 5px;
+    padding: 10px 20px ;
+}
+
+.menu li i,a{
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.menu li a{
+    padding: 10px;
+}
+
+ .social_media {
+    opacity: 0.5;
+    position: absolute;
+    left: 79px;
+    bottom: 10px;
+    font-size: 5px;
+    color:white;
+}
+
+#check{
+    display: none;
+}
+
+.social_media i{
+    padding: 5px;
+    color: white;
+    opacity: 0.5;
+}
+
+.sidebar_menu .menu li:hover{
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
+
+
+.btn_one i:hover{
+font-size: 40px;
+}
+
+
+    .btn_two i:hover{
+font-size: 20px;
+box-shadow: 0.5px 0.5px 2px rgb(22, 132, 180);
+} 
+
+.social_media i:hover{
+    opacity:10;
+    transform: scale(1.5);
+}
+
+#check:checked~.sidebar_menu{
+    left:0px;
+}
+
+#check:checked~.sidebar_menu .btn_two i{
+    opacity: 1;}
+
+    #check:checked~.btn_one i{
+        opacity: -0.5;
+    }
+ 
+/* .gallery{
+    display: none;
+    position: absolute;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 300px;
+} */
+/* 
+.gallery-item:hover .gallery{
+    display: block;
+}
+
+#gallery-toggle:checked~.gallery{
+    display: block;
+}
+
+.gallery img{
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    object-fit: cover;
+}
+
+#gallery-toggle{
+    display: none;
+}
+
+label[for="gallery-toggle"]{
+    cursor: pointer;
+    color:white;
+  font-size: larger;
+font-weight: 400;
+padding-left: 10px;
+} */
